@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll ">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    
+   
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title"></h2>
+                <p class="hero_desc"></p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-">
+            <h1 class="text-center text-white" style="background-color: #69a7a5"  >About Me</h1>
+            <div class="row mt-4">
+
+                <div >
+                    <p> Hello! I'm <span style="font-weight: bolder;">Ilanchezhian</span>, a passionate web developer with a strong foundation in front-end and back-end technologies. I have a deep love for crafting beautiful and functional websites and web applications that deliver seamless user experiences. My journey in the world of programming started with a curiosity about how the digital landscape works, and it's been an exciting ride ever since.
+                    </p>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p> I'm fluent in the trio of HTML, CSS, and JavaScript, molding static concepts into interactive web experiences. I'm a fan of making things look sleek and responsive, using tools like Bootstrap and Tailwind CSS. Behind the scenes, I wield Java to build sturdy applications and Node.js to craft speedy server solutions. React.js is my go-to for dynamic user interfaces that keep users engaged. I'm all about staying in the loop with the latest trends, ensuring that the tech I use is always fresh and exciting. Let's collaborate and create something awesome together!" </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center text-white" style="background-color: #69a7a5"  >Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Website Development</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Website Design</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">Website Deployment</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center text-white" style="background-color: #69a7a5"  >Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title"> Rat_maze_javascript</h4>
+                            <p class="card-text">Create a puzzle Game using javascript</p>
+                            <div class="text-center">
+                                <a href="https://ilanchezhian-m.github.io/Rat_maze_javascript/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5 " >  Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title"> Weather-API</h4>
+                            <p class="card-text">Weather website using javascript and fetch api</p>
+                            <div class="text-center">
+                                <a href="https://ilanchezhian-m.github.io/Weather-API-Javascript-Project/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Tailwind css Website</h4>
+                            <p class="card-text">website using complete css framwork Tailwind</p>
+                            <div class="text-center">
+                                <a href="https://acme-rockets-yz2p.onrender.com/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5 ">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Tic_Tac_Toe
+                                </h4>
+                            <p class="card-text">Tic Tac Toe Game using javascript</p>
+                            <div class="text-center">
+                                <a href="https://ilanchezhian-m.github.io/Tic_Tac_Toe/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5 ">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage1.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Snake Game</h4>
+                            <p class="card-text">Create using css grid and javascript</p>
+                            <div class="text-center">
+                                <a href="https://ilanchezhian-m.github.io/Snake_game/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5 ">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Static website</h4>
+                            <p class="card-text">website with responsive web design</p>
+                            <div class="text-center">
+                                <a href="https://ilanchezhian-m.github.io/Css-project/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5 ">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center text-white" style="background-color: #69a7a5">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bhavani,+Tamil+Nadu,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#google-maps-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5  mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer" class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h4>Connect with Me</h4>
+                    <div class="social-icons mt-3">
+                        <a href="https://twitter.com/ilanchezhian27" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/ilanchezhian-m-hyhfgds" target="_blank" class="text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/ilanchezhian-m" target="_blank" class="text-white"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center fs-4">
+                    <p>&copy; Ilanchezhian M</p>
+                </div>  
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
