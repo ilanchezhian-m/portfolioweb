@@ -11,13 +11,7 @@
    
 }
 
-/* hero background image */
-.bgimage {
-    height:100vh;
-    background: url('images/bgpage.png');
-    background-size:cover;
-    position:relative;
-}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -101,4 +95,22 @@
     border: 1px solid #cbd933;
     background-color: rgb(194, 194, 194);
    
+}
+.bgimage {
+    height:100vh;
+    width: auto;
+    background-size:cover;
+    background-image: linear-gradient(to bottom,rgb(39, 12, 92),rgb(249, 190, 139));
+    position:relative;
+}
+
+.hero_desc{
+    font-size: 70px;
+    justify-content: space-between;
+}
+.hero_desc:hover{
+   color: rgb(156, 228, 228);
+}
+.hero_title:hover{
+    color: rgb(156, 228, 228);
 }

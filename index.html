@@ -4,12 +4,12 @@
   <title>Portfolio Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- linking css file -->
   <link rel="stylesheet" href="style.css">
-  <!-- bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- font awesome -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+<!-- font awesome -->
   <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -50,8 +50,9 @@
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title"></h2>
-                <p class="hero_desc"></p>
+
+                <h2 class="hero_title">Hello Everyone!</h2>
+                <p class="hero_desc">I'm Ilanchezhian <br>  FrontEnd Developer</p>
             </div>
             </div>
         </div>
@@ -62,7 +63,6 @@
         <div class="container mt-4 pt-">
             <h1 class="text-center text-white" style="background-color: #69a7a5"  >About Me</h1>
             <div class="row mt-4">
-
                 <div >
                     <p> Hello! I'm <span style="font-weight: bolder;">Ilanchezhian</span>, a passionate web developer with a strong foundation in front-end and back-end technologies. I have a deep love for crafting beautiful and functional websites and web applications that deliver seamless user experiences. My journey in the world of programming started with a curiosity about how the digital landscape works, and it's been an exciting ride ever since.
                     </p>
@@ -78,7 +78,7 @@
     <!-- services section-->
     <section id="services">
         <div class="container">
-            <h1 class="text-center text-white" style="background-color: #69a7a5"  >Services</h1>
+            <h1 class="text-center text-white" style="background-color: #69a7a5">Services</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card servicesText">
@@ -156,7 +156,7 @@
                             <h4 class="card-title">Tailwind css Website</h4>
                             <p class="card-text">website using complete css framwork Tailwind</p>
                             <div class="text-center">
-                                <a href="https://acme-rockets-yz2p.onrender.com/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5 ">Link</a>
+                                <a href="https://acme-rockets-yz2p.onrender.com/" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5">Link</a>
                             </div>
                         </div>
                     </div>
@@ -213,13 +213,12 @@
             <h1 class="text-center text-white" style="background-color: #69a7a5">Contact Me</h1>
 
             <div class="row mt-4">
-                <div class="col-lg-6">
+                <div class="col">
                     <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
-                    <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bhavani,+Tamil+Nadu,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#google-maps-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- form fields -->
+                    <!-- <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bhavani,+Tamil+Nadu,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embedded-map-code" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#google-maps-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
+                </div> --> 
+                <div class="col">
+                    <!--screen form fields -->
                     <form>
                         <input type="text" class="form-control form-control-lg" placeholder="Name">
                         <input type="email" class="form-control mt-3" placeholder="Email">
@@ -228,10 +227,10 @@
                             <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
                         </div>
                     </form>
-                    <button type="button" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5  mt-3">Contact Me</button>
-                    
+                    <div class="text-center">
+                    <button type="button" class="btn btn-info pt-md-3 w-50 rounded-pill fw-bold fs-5  mt-3  ">Contact Me</button>
                 </div>
-
+                </div>
             </div>
         </div>
     </section>
@@ -245,6 +244,7 @@
                         <a href="https://twitter.com/ilanchezhian27" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/in/ilanchezhian-m-hyhfgds" target="_blank" class="text-white"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/ilanchezhian-m" target="_blank" class="text-white"><i class="fab fa-github"></i></a>
+                        <a href="mailto:ilanchezhian27@gmail.com" class="text-white"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@
             </div>
         </div>
     </footer>
-    
+
 
     <!-- load javascript after loading all html content -->
     <script src="script.js"></script>
